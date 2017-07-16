@@ -57,6 +57,15 @@ Thank you for considering contributing to Dazzle Project! To contribue visit the
 
 Kraken Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT). The documentation is provided under [FDL-1.3 license](https://www.gnu.org/licenses/fdl-1.3.en.html).
 
+## Going Further
+
+Whenever you feel your projects using Dazzle start to become huge and complicated you might find yourself in a need of a tool that provides more possibilites than library can. If that happens, don't worry and try the [Kraken Framework](https://github.com/kraken-php/framework). It is fully asynchronous and distributed framework working on top of dazzle libraries that was created to contain most of the boilerplate and implement solutions which you need when creating services and service-oriented applications.
+
+<br>
+<p align="center">
+<img src="https://github.com/dazzle-php/dazzle/blob/master/media/kraken-github.png" />
+</p>
+
 <hr>
 <p align="center">
 <i>"Everything is possible. The impossible just takes longer."</i> ― Dan Brown
