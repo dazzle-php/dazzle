@@ -4,7 +4,7 @@
 
 <br>
 <p align="center">
-<img src="https://github.com/dazzle-php/dazzle/blob/master/media/dazzle-x125.png" />
+<img src="https://github.com/dazzle-php/dazzle/blob/master/media/dazzle-github.png" />
 </p>
 
 ## Description
