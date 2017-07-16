@@ -17,6 +17,10 @@ TODO
 * UNIX or Windows OS,
 * Additional constraints based on which components you do plan to use.
 
+## Installation
+
+Dazzle components can be installed separately, allowing you to build your own technology stack. To install any of them, simply visit their repositories and follow the installation instructions posted there. Some of the packages can be used instantly with event minimal configuration of PHP, some require additional libraries.
+
 ## Contributing
 
 Thank you for considering contributing to Dazzle Project! To contribue visit the repository of the package you would like to introduce changes to, read the attached contributing guide and create PR. To contribute with the new, non-existing repository, contact author directly using the information provided in [composer.json](https://github.com/dazzle-php/dazzle/blob/master/composer.json) file.
