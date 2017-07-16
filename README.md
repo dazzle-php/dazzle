@@ -56,3 +56,8 @@ Thank you for considering contributing to Dazzle Project! To contribue visit the
 ## License
 
 Kraken Framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT). The documentation is provided under [FDL-1.3 license](https://www.gnu.org/licenses/fdl-1.3.en.html).
+
+<hr>
+<p align="center">
+<i>"Everything is possible. The impossible just takes longer."</i> ― Dan Brown
+</p>
