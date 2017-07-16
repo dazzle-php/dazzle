@@ -11,7 +11,7 @@
 
 ## Description
 
-TODO
+Dazzle Project is an open-source movement and a set of libraries designed specially for the purpose of allowing developers to write non-blocking, asynchronous code in PHP. Dazzle provides a variety of straight-forward, yet powerful components to ensure the implementation of such architecture will be possible in any application easily and rapidly. The project aims to create the complete asynchronous, environment with all the tools necessary to build working applications from the scratch. All of the packages included are interoperable with each other, secure, effective and efficient. Each package is provided with a set of working examples, tests and well-formed documentation on at least minimum required level.
 
 ## Components
 
