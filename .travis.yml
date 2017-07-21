@@ -1,0 +1,24 @@
+language: php
+
+dist: trusty
+sudo: required
+
+php:
+  - 5.6
+  - 7.0
+  - 7.1
+
+before_install:
+  - export PHP_MAJOR="$(echo $TRAVIS_PHP_VERSION | cut -d '.' -f 1,2)"
+
+install:
+  - travis_retry composer self-update
+  - travis_retry composer install --prefer-source --no-interaction --ignore-platform-reqs
+  - php -m
+
+script:
+  - vendor/bin/phpunit -d memory_limit=1024M --coverage-text --coverage-clover=coverage.clover
+
+after_script:
+  - if [ "$TRAVIS_PHP_VERSION" = "7.1" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
+  - if [ "$TRAVIS_PHP_VERSION" = "7.1" ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
